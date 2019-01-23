@@ -1,0 +1,36 @@
+{
+  "name": "foo-lib",
+  "description": "This package will return a random motivational quote",
+  "version": "0.0.1",
+  "license": "ISC",
+  "keywords": ["angular", "random quote", "quote"],
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "bundles/foo-lib.umd.js",
+  "module": "fesm5/foo-lib.js",
+  "es2015": "fesm2015/foo-lib.js",
+  "esm5": "esm5/foo-lib.js",
+  "esm2015": "esm2015/foo-lib.js",
+  "fesm5": "fesm5/foo-lib.js",
+  "fesm2015": "fesm2015/foo-lib.js",
+  "typings": "foo-lib.d.ts",
+  "metadata": "foo-lib.metadata.json",
+  "sideEffects": false,
+  "author": "Teodor Savin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teodorsavin/randomquotelibeary"
+  },
+  "bugs": {
+    "url": "https://github.com/teodorsavin/randomquotelibeary/issues"
+  },
+  "homepage": "https://github.com/teodorsavin/randomquotelibeary",
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
